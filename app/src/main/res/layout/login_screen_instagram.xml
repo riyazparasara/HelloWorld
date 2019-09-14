@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/instagram_gradient"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:src="@drawable/instagram"
+        android:layout_marginTop="50dp"
+        android:layout_height="150dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:drawablePadding="8dp"
+        android:id="@+id/edtuserId"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_margin="20dp"
+        android:textSize="18dp"
+        android:drawablePadding="8dp"
+        android:id="@+id/edtPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Forgot Password"
+        android:textColor="#FFFFFF"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#7107ae"
+        android:textColor="#FFFFFF"
+        android:text="Login" />
+
+</LinearLayout>
